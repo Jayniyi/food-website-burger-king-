@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Burger King</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>  
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="desktop-nav"  id="navbar">
+                    <div>
+                        <h1 class="logo"> Burger <strong>King</strong></h1>
+                    </div>
+                    <div>
+                        <ul class="links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Features</a></li>
+                            <li><a href="#">Chef</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">Booking</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="mobile-container">
+                <!-- Top Navigation Menu -->
+                <div class="topnav">
+                    <div>
+                        <h1 class="logo"> Burger <strong>King</strong></h1>
+                    </div>
+                  <div id="myLinks">
+                    <a href="#news">Home</a>
+                    <a href="#contact">About</a>
+                    <a href="#about">Features</a>
+                    <a href="#">Chef</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Booking</a>
+                    <a href="#">Contact</a>
+                  </div>
+                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;
+                  </a>
+                </div>
+        </nav>
+    </header>
+    <!-- hero section  -->
+      <!-- Swiper -->
+  <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/carousel-1.jpg" alt="" srcset="">
+                <div class="slide">
+                    <div class="content">
+                        <h1> Best <strong>Quality</strong> Ingredients</h1>
+                        <p>"Welcome to our culinary paradise! Explore a world of flavors and indulge in delicious creations. <br> Let your taste  buds dance  with our exquisite  dishes and savor every bite."</p>
+                        <div>
+                            <div class="View">
+                                <button class="btn1">View Menu</button>
+                                <button >Book Table</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/carousel-3.jpg" alt="" srcset="">
+                <div class="slide">
+                    <div class="content">
+                        <h1> Fastest Order <strong>Delivery</strong></h1>
+                        <p>"Welcome to our culinary paradise! Explore a world of flavors and indulge in delicious creations. <br> Let your taste  buds dance  with our exquisite  dishes and savor every bite."</p>
+                        <div>
+                            <div class="View">
+                                <button class="btn1">View Menu</button>
+                                <button >Book Table</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <img src="img/carousel-2.jpg" alt="" srcset="">
+                <div class="slide">
+                    <div class="content">
+                        <h1> World's <strong>Best</strong> Chef</h1>
+                        <p>"Welcome to our culinary paradise! Explore a world of flavors and indulge in delicious creations. <br> Let your taste  buds dance  with our exquisite  dishes and savor every bite."</p>
+                        <div>
+                            <div class="View">
+                                <button class="btn1" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">View Menu</button>
+                                <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Book Table</button>
+
+                            </div>
+                        </div>                       
+                    </div>
+                </div>
+                </div>
+            </div>
+    </div>
+  </div>
+   <!-- book Table section  -->
+   <div class="table-booking sidebar">
+        <div class="book">
+            <h3>Book A Table</h3>
+            <h1>Book Your Table For Private <br> Dinners & Happy Hours </h1>
+            <p>Reserve your spot at our dining haven and prepare for an unforgettable experience. Whether you're planning a romantic dinner for two, a family celebration, or a gathering with friends, booking a table with us ensures a delightful culinary adventure awaits you. Our cozy ambiance and delectable menu offerings promise to elevate your dining experience to new heights.</p> <br>
+            <p>Don't miss the opportunity to dine with us and create lasting memories over exceptional food and drinks. Reserve your table now to guarantee a seat at our table and immerse yourself in a culinary journey that will tantalize your senses. We look forward to welcoming you and providing a dining experience that will exceed your expectations</p>
+        </div>
+        <div class="book-form">
+            <form action="">
+                <div class="left-inner-addon input-container">
+                <input type="text" placeholder=" Your Name" required="required" name="search" placeholder="Search..">
+                </div> <br> <br>
+                <div class="left-inner-addon input-container">
+                    <input type="email" placeholder="Input Your Email" required="required">
+                </div> <br> <br>
+                <div  class="left-inner-addon input-container" >
+                    <input required="required" type="tel" placeholder="Mobile Number">
+                </div> <br> <br>
+                <div>
+                    <input required="required" style="color: white;" type="date" class="form-control datetimepicker-input" placeholder="Date" data-target="#date" data-toggle="datetimepicker"/>
+                </div> <br> <br>
+                <div>
+                    <input required="required" style="color: white;" type="time" class="form-control datetimepicker-input" placeholder="Time" data-target="#time" data-toggle="datetimepicker"/>
+                </div><br> <br>
+                <div class="control-group">
+                    <div class="input-group">
+                        <select required="required" class="custom-select form-control">
+                            <option selected>Guest</option>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guest</option>
+                            <option value="3">3 Guest</option>
+                            <option value="4">4 Guest</option>
+                            <option value="5">5 Guest</option>
+                            <option value="6">6 Guest</option>
+                            <option value="7">7 Guest</option>
+                            <option value="8">8 Guest</option>
+                            <option value="9">9 Guest</option>
+                            <option value="10">10 Guest</option>
+                        </select> <br> <br> <br>
+                    </div>
+                </div>
+                <button type="submit">Book Now</button>
+            </form>
+        </div>
+   </div>
+   <!-- about us  -->
+   <div class="abt-vd">
+        <div class="video">
+            <video autoplay muted loop id="myVideo">
+                <source src="img/5101342-hd_1920_1080_25fps.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="abt-ct">
+            <h3>About Us</h3>
+            <h1>Cooking since 1990</h1>
+            <p>Established in 1954, <strong>Burger King</strong>  has been a pioneer in the fast-food industry, revolutionizing the way people enjoy their favorite meals. At Burger King, we're more than just a fast-food restaurant – we're a brand that's committed to serving up flame-grilled perfection with every bite. Our iconic Whopper® sandwich, made with 100% beef, fresh ingredients, and our signature flame-grilling technique, has been delighting taste buds for decades. But we're not just about burgers – our menu offers a wide range of options to satisfy every craving, from crispy chicken sandwiches to savory sides and refreshing beverages.</p>
+            <button class="btn-table"> Book Table</button>
+        </div>
+   </div>
+   <!-- why us section  -->
+   <div class="why-us">
+        <div class="pics" >
+            <div>
+                <h3>Why Choose Us</h3>
+                <h1>Our Key Features</h1>
+            </div>
+            <div class="geeks">
+                <img  style="border-top-left-radius: 20px;" src="img/feature-1.jpg" alt="" srcset="">
+                <img  style="border-top-right-radius: 20px;" src="img/feature-2.jpg" alt="" srcset="">
+            </div>
+            <div class="geeks">
+                <img  style="border-bottom-left-radius: 20px;" src="img/feature-3.jpg" alt="" srcset="">
+                <img style="border-bottom-right-radius: 20px;"  src="img/feature-4.jpg" alt="" srcset="">
+            </div>
+            <div>
+                <p >At Burger King, our commitment to excellence sets us apart from the rest. With a rich history dating back to 1954, we have been at the forefront of the fast-food industry, constantly innovating and delivering a dining experience like no other. When you choose Burger King, you're not just selecting a meal – you're choosing quality, flavor, and a tradition of flame-grilled perfection.</p>
+                <button class="btn-table"> Book Table</button>
+            </div>
+        </div>
+        <div class="wa">
+            <div class="way">
+                <div class="wy" >
+                   <img src="img/Burger_kinglogo.png" alt="" srcset="">
+                    <h1>World’s best Chef</h1>
+                    <p>But it's not just about the food – it's also about the experience. Our friendly team is here to ensure that your visit is nothing short of exceptional.</p>
+                </div>
+                <div class="wy">
+                    <img src="img/Screenshot 2024-04-02 213432.png" alt="" srcset="">
+                    <h1>Natural ingredients</h1>
+                    <p>But it's not just about the food – it's also about the experience. Our friendly team is here to ensure that your visit is nothing short of exceptional.</p>
+                </div>
+            </div>
+            <div class="way">
+                <div class="wy">
+                    <img src="img/Screenshot 2024-04-02 213523.png" alt="" srcset="">
+                    <h1>Best quality products</h1>
+                    <p>But it's not just about the food – it's also about the experience. Our friendly team is here to ensure that your visit is nothing short of exceptional.</p>
+                </div>
+                <div class="wy">
+                    <img src="img/Screenshot 2024-04-02 213606.png" alt="" srcset="">
+                    <h1>Fresh vegetables & Meet</h1>
+                    <p>But it's not just about the food – it's also about the experience. Our friendly team is here to ensure that your visit is nothing short of exceptional.</p>
+                </div>
+            </div>
+            <div class="way">
+                <div class="wy">
+                    <img src="img/Screenshot 2024-04-02 213628.png" alt="" srcset="">
+                    <h1>Fresh vegetables & Meet</h1>
+                    <p>But it's not just about the food – it's also about the experience. Our friendly team is here to ensure that your visit is nothing short of exceptional.</p>
+                </div>
+                <div class="wy">
+                    <img src="/burger-site/img/Screenshot 2024-04-02 213706.png" alt="" srcset="">
+                    <h1>Ground beef & Low fat </h1>
+                    <p>But it's not just about the food – it's also about the experience. Our friendly team is here to ensure that your visit is nothing short of exceptional..</p>
+                </div>
+            </div>
+        </div>
+   </div>
+    <!-- snacks setcion  -->
+    <div class="sna">
+        <div class="snacks">
+            <div class="burger">
+                <div class="snack">
+                    <img src="img/burger.png" alt="" srcset="">
+                    <h1>Burger</h1>
+                    <p>If you're looking for words to describe a burger from Burger King, you could use terms like "flame-grilled," "juicy," "satisfying," "delicious," "topped with fresh ingredients," and so on. These words highlight the quality and taste of Burger King's burgers.</p>
+                    <a href="#">View Menu</a>
+                </div>
+                <div class="snack">
+                    <img src="img/snacks.png" alt="" srcset="">
+                    <h1>Snacks</h1>
+                    <p>If you're looking for words to describe a burger from Burger King, you could use terms like "flame-grilled," "juicy," "satisfying," "delicious," "topped with fresh ingredients," and so on. These words highlight the quality and taste of Burger King's burgers.</p>
+                    <a href="#">View Menu</a>
+                </div>
+                <div class="snack">
+                    <img src="img/beverages.png" alt="" srcset="">
+                    <h1>Beverages</h1>
+
+                    <p>If you're looking for words to describe a burger from Burger King, you could use terms like "flame-grilled," "juicy," "satisfying," "delicious," "topped with fresh ingredients," and so on. These words highlight the quality and taste of Burger King's burgers.</p>
+                    <a href="#">View Menu</a>
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- food menu  -->
+    <div class="food">
+        <h3>Food Menu</h3>
+        <h1>Delicious Food Menu</h1>
+        <div> 
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Burgers</button>
+                <button class="tablinks" onclick="openCity(event, 'Paris')">Snacks</button>
+                <button class="tablinks" onclick="openCity(event, 'Tokyo')">Beverages</button>
+            </div>
+
+            <div id="London" class="tabcontent">
+                <div class="price">
+                    <div>
+                        <div class="bur">
+                            <div>
+                                <img src="img/menu-burger.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h2>Pulled porx Burger ...............................<strong>$17.00</strong></h2>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>    
+                            </div>
+                        </div>
+                        <div class="bur">
+                            <div>
+                                <img src="img/menu-burger.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h2>Pulled porx Burger ...............................<strong>$17.00</strong></h2>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>    
+                            </div>
+                        </div>
+                        <div class="bur">
+                            <div>
+                                <img src="img/menu-burger.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h2>Pulled porx Burger ...............................<strong>$17.00</strong></h2>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>    
+                            </div>
+                        </div>
+                        <div class="bur">
+                            <div>
+                                <img src="img/menu-burger.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h2>Pulled porx Burger ...............................<strong>$17.00</strong></h2>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>    
+                            </div>
+                        </div>
+                        <div class="bur">
+                            <div>
+                                <img src="img/menu-burger.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h2>Pulled porx Burger ...............................<strong>$17.00</strong></h2>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imh-bur">
+                        <img style="width: 100%;" src="img/menu-burger-img.jpg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+            
+            <div id="Paris" class="tabcontent">
+                <div class="price">
+                    <div>
+                        <div class="bur">
+                            <div>
+                                <img src="img/menu-snack.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h2>Mini Cheese Burger.................................<strong>$9.00</strong></h2>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>    
+                            </div>
+                        </div>
+                        <div class="bur">
+                            <div>
+                                <img src="img/menu-snack.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h2>Double size burger................................<strong>$11.00</strong></h2>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>    
+                            </div>
+                        </div>
+                        <div class="bur">
+                            <div>
+                                <img src="img/menu-snack.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h2>Bacon, EGG and Cheese.........................<strong>$13.00</strong></h2>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>    
+                            </div>
+                        </div>
+                        <div class="bur">
+                            <div>
+                                <img src="img/menu-snack.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h2>Pulled porx Burger ...............................<strong>$15.00</strong></h2>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>    
+                            </div>
+                        </div>
+                        <div class="bur">
+                            <div>
+                                <img src="img/menu-snack.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h2>Pulled porx Burger ...............................<strong>$17.00</strong></h2>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imh-bur">
+                        <img style="width: 100%;" src="img/menu-snack-img.jpg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+            <div id="Tokyo" class="tabcontent">
+                <div class="price">
+                    <div>
+                       <div class="bur">
+                            <div>
+                                <img src="img/menu-beverage.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h2>Pulled porx Burger ...............................<strong>$17.00</strong></h2>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>    
+                            </div>
+                        </div>
+                        <div class="bur">
+                            <div>
+                                <img src="img/menu-beverage.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h2>Pulled porx Burger ...............................<strong>$17.00</strong></h2>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>    
+                            </div>
+                        </div>
+                        <div class="bur">
+                            <div>
+                                <img src="img/menu-beverage.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h2>Pulled porx Burger ...............................<strong>$17.00</strong></h2>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>    
+                            </div>
+                        </div>
+                        <div class="bur">
+                            <div>
+                                <img src="img/menu-beverage.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h2>Pulled porx Burger ...............................<strong>$17.00</strong></h2>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>    
+                            </div>
+                        </div>
+                        <div class="bur">
+                            <div>
+                                <img src="img/menu-beverage.jpg" alt="" srcset="">
+                            </div>
+                            <div>
+                                <h2>Pulled porx Burger ...............................<strong>$17.00</strong></h2>
+                                <p>Lorem ipsum dolor sit amet elit. Phasel nec preti facil</p>    
+                            </div>
+                        </div>
+                    </div>
+                    <div class="imh-bur">
+                        <img style="width: 100%;" src="img/menu-beverage-img.jpg" alt="" srcset="">
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!-- our teams  -->
+    <div class="team">
+        <div class="team-text">
+            <h3>Our Team </h3>
+            <h1> Our Chef </h1>
+        </div>
+        <div class="chefs">
+            <div class="container">
+                <img src="img/team-1.jpg" alt="Avatar" class="image" style="width:100%">
+                <div class="middle">
+                  <div class="text">
+                    <div class="socials">
+                        <a href="https://www.instagram.com/jayni_yi?igshid=YzAwZjE1ZTI0Zg==">
+                            <svg class="" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M14.0759 2.03236C15.173 2.03551 16.2242 2.45628 17 3.20276C17.7757 3.94925 18.213 4.9608 18.2162 6.01648V13.9839C18.213 15.0396 17.7757 16.0511 17 16.7976C16.2242 17.5441 15.173 17.9649 14.0759 17.968H5.79618C4.69911 17.9649 3.6479 17.5441 2.87215 16.7976C2.0964 16.0511 1.65914 15.0396 1.65586 13.9839V6.01648C1.65914 4.9608 2.0964 3.94925 2.87215 3.20276C3.6479 2.45628 4.69911 2.03551 5.79618 2.03236H14.0759ZM14.0759 0.438965H5.79618C2.60821 0.438965 0 2.94878 0 6.01648V13.9839C0 17.0516 2.60821 19.5614 5.79618 19.5614H14.0759C17.2639 19.5614 19.8721 17.0516 19.8721 13.9839V6.01648C19.8721 2.94878 17.2639 0.438965 14.0759 0.438965Z" fill="#ffc107"/>
+                                <path d="M15.3177 6.01677C15.072 6.01677 14.8319 5.94668 14.6277 5.81535C14.4234 5.68403 14.2642 5.49737 14.1702 5.27898C14.0762 5.0606 14.0516 4.82029 14.0995 4.58846C14.1475 4.35662 14.2658 4.14366 14.4395 3.97652C14.6131 3.80937 14.8345 3.69555 15.0754 3.64943C15.3163 3.60331 15.566 3.62698 15.793 3.71744C16.0199 3.8079 16.2139 3.96108 16.3504 4.15763C16.4868 4.35417 16.5597 4.58524 16.5597 4.82162C16.56 4.97866 16.5282 5.13423 16.4659 5.27938C16.4036 5.42454 16.3121 5.55642 16.1967 5.66747C16.0813 5.77852 15.9442 5.86654 15.7934 5.92648C15.6425 5.98642 15.4809 6.01711 15.3177 6.01677ZM9.9358 6.81325C10.5909 6.81325 11.2313 7.00018 11.7759 7.3504C12.3206 7.70061 12.7452 8.19839 12.9958 8.78077C13.2465 9.36316 13.3121 10.004 13.1843 10.6223C13.0565 11.2405 12.7411 11.8084 12.2779 12.2542C11.8146 12.6999 11.2245 13.0035 10.582 13.1264C9.93948 13.2494 9.27351 13.1863 8.66829 12.9451C8.06307 12.7038 7.54578 12.2953 7.18184 11.7712C6.81789 11.2471 6.62364 10.6308 6.62364 10.0005C6.62458 9.15544 6.97384 8.34529 7.59478 7.74777C8.21573 7.15024 9.05765 6.81416 9.9358 6.81325ZM9.9358 5.21986C8.95322 5.21986 7.9927 5.50024 7.17571 6.02554C6.35873 6.55084 5.72196 7.29747 5.34594 8.17101C4.96993 9.04455 4.87154 10.0058 5.06323 10.9331C5.25493 11.8605 5.72809 12.7123 6.42288 13.3809C7.11767 14.0494 8.00289 14.5048 8.96659 14.6892C9.93029 14.8737 10.9292 14.779 11.837 14.4172C12.7448 14.0553 13.5207 13.4426 14.0666 12.6564C14.6125 11.8703 14.9038 10.946 14.9038 10.0005C14.9038 8.73257 14.3804 7.51661 13.4487 6.62007C12.517 5.72353 11.2534 5.21986 9.9358 5.21986Z" fill="#ffc107"/>
+                            </svg>
+                       </a>
+                    </div>
+                    <div class="socials">
+                        <a href="">
+                            <svg class="socials" xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4065 10.0578C21.4065 4.74704 16.8092 0.440918 11.1393 0.440918C5.4694 0.440918 0.87207 4.74704 0.87207 10.0578C0.87207 14.8576 4.62602 18.8362 9.53503 19.5583V12.8385H6.92743V10.0578H9.53503V7.93907C9.53503 5.52927 11.0682 4.19708 13.4132 4.19708C14.5366 4.19708 15.7119 4.38512 15.7119 4.38512V6.75199H14.4165C13.1418 6.75199 12.7431 7.49301 12.7431 8.25463V10.0578H15.5904L15.1357 12.8385H12.7435V19.5592C17.6525 18.8375 21.4065 14.8589 21.4065 10.0578Z" fill="#ffc107"/>
+                            </svg>
+                       </a>
+                    </div>
+                    <div class="socials">
+                        <a href="https://x.com/JosephObasan?t=sR-oiURiIIYlOkXXjIT25Q&s=09">
+                            <svg class="socials" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 16" fill="none">
+                                <path d="M19.5756 2.1537C18.8566 2.46592 18.0958 2.67161 17.3172 2.76428C18.1354 2.28554 18.7507 1.52498 19.0477 0.625233C18.2742 1.07722 17.4293 1.39436 16.5493 1.56306C16.1787 1.17497 15.733 0.866237 15.2393 0.65562C14.7456 0.445004 14.2143 0.336906 13.6775 0.337897C11.5041 0.337897 9.74533 2.06989 9.74533 4.20495C9.74379 4.50193 9.77785 4.79802 9.84677 5.08691C8.28834 5.0139 6.76231 4.61663 5.36632 3.92051C3.97033 3.22439 2.73512 2.24475 1.73972 1.04426C1.39051 1.63255 1.20583 2.30377 1.20497 2.98777C1.20497 4.32866 1.90506 5.51392 2.96217 6.20832C2.33586 6.19346 1.72238 6.02781 1.17382 5.72543V5.77332C1.17382 7.64898 2.53166 9.20937 4.32879 9.56455C3.99084 9.65458 3.64259 9.70019 3.29284 9.70024C3.04467 9.70067 2.79706 9.67661 2.55362 9.6284C3.05322 11.1648 4.5073 12.2823 6.22975 12.3142C4.83014 13.3921 3.11178 13.9746 1.34475 13.9704C1.0311 13.9699 0.717739 13.9512 0.40625 13.9145C2.20385 15.0615 4.29342 15.6682 6.42624 15.6624C13.6691 15.6624 17.6259 9.76808 17.6259 4.65591C17.6259 4.4883 17.6216 4.32068 17.6136 4.15706C18.3816 3.61115 19.046 2.93274 19.5756 2.1537Z" fill="#ffc107"/>
+                            </svg>
+                       </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="names">
+                    <h2>Adams Philips</h2>
+                    <p>CEO, Co Founder</p>
+                </div>
+            </div>
+            <div class="container">
+                <img src="img/team-2.jpg" alt="Avatar" class="image" style="width:100%">
+                <div class="middle">
+                  <div class="text">
+                    <div class="socials">
+                        <a href="https://www.instagram.com/jayni_yi?igshid=YzAwZjE1ZTI0Zg==">
+                            <svg class="" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <path d="M14.0759 2.03236C15.173 2.03551 16.2242 2.45628 17 3.20276C17.7757 3.94925 18.213 4.9608 18.2162 6.01648V13.9839C18.213 15.0396 17.7757 16.0511 17 16.7976C16.2242 17.5441 15.173 17.9649 14.0759 17.968H5.79618C4.69911 17.9649 3.6479 17.5441 2.87215 16.7976C2.0964 16.0511 1.65914 15.0396 1.65586 13.9839V6.01648C1.65914 4.9608 2.0964 3.94925 2.87215 3.20276C3.6479 2.45628 4.69911 2.03551 5.79618 2.03236H14.0759ZM14.0759 0.438965H5.79618C2.60821 0.438965 0 2.94878 0 6.01648V13.9839C0 17.0516 2.60821 19.5614 5.79618 19.5614H14.0759C17.2639 19.5614 19.8721 17.0516 19.8721 13.9839V6.01648C19.8721 2.94878 17.2639 0.438965 14.0759 0.438965Z" fill="#ffc107"/>
+                                <path d="M15.3177 6.01677C15.072 6.01677 14.8319 5.94668 14.6277 5.81535C14.4234 5.68403 14.2642 5.49737 14.1702 5.27898C14.0762 5.0606 14.0516 4.82029 14.0995 4.58846C14.1475 4.35662 14.2658 4.14366 14.4395 3.97652C14.6131 3.80937 14.8345 3.69555 15.0754 3.64943C15.3163 3.60331 15.566 3.62698 15.793 3.71744C16.0199 3.8079 16.2139 3.96108 16.3504 4.15763C16.4868 4.35417 16.5597 4.58524 16.5597 4.82162C16.56 4.97866 16.5282 5.13423 16.4659 5.27938C16.4036 5.42454 16.3121 5.55642 16.1967 5.66747C16.0813 5.77852 15.9442 5.86654 15.7934 5.92648C15.6425 5.98642 15.4809 6.01711 15.3177 6.01677ZM9.9358 6.81325C10.5909 6.81325 11.2313 7.00018 11.7759 7.3504C12.3206 7.70061 12.7452 8.19839 12.9958 8.78077C13.2465 9.36316 13.3121 10.004 13.1843 10.6223C13.0565 11.2405 12.7411 11.8084 12.2779 12.2542C11.8146 12.6999 11.2245 13.0035 10.582 13.1264C9.93948 13.2494 9.27351 13.1863 8.66829 12.9451C8.06307 12.7038 7.54578 12.2953 7.18184 11.7712C6.81789 11.2471 6.62364 10.6308 6.62364 10.0005C6.62458 9.15544 6.97384 8.34529 7.59478 7.74777C8.21573 7.15024 9.05765 6.81416 9.9358 6.81325ZM9.9358 5.21986C8.95322 5.21986 7.9927 5.50024 7.17571 6.02554C6.35873 6.55084 5.72196 7.29747 5.34594 8.17101C4.96993 9.04455 4.87154 10.0058 5.06323 10.9331C5.25493 11.8605 5.72809 12.7123 6.42288 13.3809C7.11767 14.0494 8.00289 14.5048 8.96659 14.6892C9.93029 14.8737 10.9292 14.779 11.837 14.4172C12.7448 14.0553 13.5207 13.4426 14.0666 12.6564C14.6125 11.8703 14.9038 10.946 14.9038 10.0005C14.9038 8.73257 14.3804 7.51661 13.4487 6.62007C12.517 5.72353 11.2534 5.21986 9.9358 5.21986Z" fill="#ffc107"/>
+                            </svg>
+                       </a>
+                    </div>
+                    <div class="socials">
+                        <a href="">
+                            <svg class="socials" xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4065 10.0578C21.4065 4.74704 16.8092 0.440918 11.1393 0.440918C5.4694 0.440918 0.87207 4.74704 0.87207 10.0578C0.87207 14.8576 4.62602 18.8362 9.53503 19.5583V12.8385H6.92743V10.0578H9.53503V7.93907C9.53503 5.52927 11.0682 4.19708 13.4132 4.19708C14.5366 4.19708 15.7119 4.38512 15.7119 4.38512V6.75199H14.4165C13.1418 6.75199 12.7431 7.49301 12.7431 8.25463V10.0578H15.5904L15.1357 12.8385H12.7435V19.5592C17.6525 18.8375 21.4065 14.8589 21.4065 10.0578Z" fill="#ffc107"/>
+                            </svg>
+                       </a>
+                    </div>
+                    <div class="socials">
+                        <a href="https://x.com/JosephObasan?t=sR-oiURiIIYlOkXXjIT25Q&s=09">
+                            <svg class="socials" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 16" fill="none">
+                                <path d="M19.5756 2.1537C18.8566 2.46592 18.0958 2.67161 17.3172 2.76428C18.1354 2.28554 18.7507 1.52498 19.0477 0.625233C18.2742 1.07722 17.4293 1.39436 16.5493 1.56306C16.1787 1.17497 15.733 0.866237 15.2393 0.65562C14.7456 0.445004 14.2143 0.336906 13.6775 0.337897C11.5041 0.337897 9.74533 2.06989 9.74533 4.20495C9.74379 4.50193 9.77785 4.79802 9.84677 5.08691C8.28834 5.0139 6.76231 4.61663 5.36632 3.92051C3.97033 3.22439 2.73512 2.24475 1.73972 1.04426C1.39051 1.63255 1.20583 2.30377 1.20497 2.98777C1.20497 4.32866 1.90506 5.51392 2.96217 6.20832C2.33586 6.19346 1.72238 6.02781 1.17382 5.72543V5.77332C1.17382 7.64898 2.53166 9.20937 4.32879 9.56455C3.99084 9.65458 3.64259 9.70019 3.29284 9.70024C3.04467 9.70067 2.79706 9.67661 2.55362 9.6284C3.05322 11.1648 4.5073 12.2823 6.22975 12.3142C4.83014 13.3921 3.11178 13.9746 1.34475 13.9704C1.0311 13.9699 0.717739 13.9512 0.40625 13.9145C2.20385 15.0615 4.29342 15.6682 6.42624 15.6624C13.6691 15.6624 17.6259 9.76808 17.6259 4.65591C17.6259 4.4883 17.6216 4.32068 17.6136 4.15706C18.3816 3.61115 19.046 2.93274 19.5756 2.1537Z" fill="#ffc107"/>
+                            </svg>
+                       </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="names">
+                    <h2>Dylan Adams</h2>
+                    <p>Master Chef</p>
+                </div>
+            </div>
+            <div class="container">
+                <img src="img/team-3.jpg" alt="Avatar" class="image" style="width:100%">
+                <div class="middle">
+                    <div class="text">
+                        <div class="socials">
+                            <a href="https://www.instagram.com/jayni_yi?igshid=YzAwZjE1ZTI0Zg==">
+                                <svg class="" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M14.0759 2.03236C15.173 2.03551 16.2242 2.45628 17 3.20276C17.7757 3.94925 18.213 4.9608 18.2162 6.01648V13.9839C18.213 15.0396 17.7757 16.0511 17 16.7976C16.2242 17.5441 15.173 17.9649 14.0759 17.968H5.79618C4.69911 17.9649 3.6479 17.5441 2.87215 16.7976C2.0964 16.0511 1.65914 15.0396 1.65586 13.9839V6.01648C1.65914 4.9608 2.0964 3.94925 2.87215 3.20276C3.6479 2.45628 4.69911 2.03551 5.79618 2.03236H14.0759ZM14.0759 0.438965H5.79618C2.60821 0.438965 0 2.94878 0 6.01648V13.9839C0 17.0516 2.60821 19.5614 5.79618 19.5614H14.0759C17.2639 19.5614 19.8721 17.0516 19.8721 13.9839V6.01648C19.8721 2.94878 17.2639 0.438965 14.0759 0.438965Z" fill="#ffc107"/>
+                                    <path d="M15.3177 6.01677C15.072 6.01677 14.8319 5.94668 14.6277 5.81535C14.4234 5.68403 14.2642 5.49737 14.1702 5.27898C14.0762 5.0606 14.0516 4.82029 14.0995 4.58846C14.1475 4.35662 14.2658 4.14366 14.4395 3.97652C14.6131 3.80937 14.8345 3.69555 15.0754 3.64943C15.3163 3.60331 15.566 3.62698 15.793 3.71744C16.0199 3.8079 16.2139 3.96108 16.3504 4.15763C16.4868 4.35417 16.5597 4.58524 16.5597 4.82162C16.56 4.97866 16.5282 5.13423 16.4659 5.27938C16.4036 5.42454 16.3121 5.55642 16.1967 5.66747C16.0813 5.77852 15.9442 5.86654 15.7934 5.92648C15.6425 5.98642 15.4809 6.01711 15.3177 6.01677ZM9.9358 6.81325C10.5909 6.81325 11.2313 7.00018 11.7759 7.3504C12.3206 7.70061 12.7452 8.19839 12.9958 8.78077C13.2465 9.36316 13.3121 10.004 13.1843 10.6223C13.0565 11.2405 12.7411 11.8084 12.2779 12.2542C11.8146 12.6999 11.2245 13.0035 10.582 13.1264C9.93948 13.2494 9.27351 13.1863 8.66829 12.9451C8.06307 12.7038 7.54578 12.2953 7.18184 11.7712C6.81789 11.2471 6.62364 10.6308 6.62364 10.0005C6.62458 9.15544 6.97384 8.34529 7.59478 7.74777C8.21573 7.15024 9.05765 6.81416 9.9358 6.81325ZM9.9358 5.21986C8.95322 5.21986 7.9927 5.50024 7.17571 6.02554C6.35873 6.55084 5.72196 7.29747 5.34594 8.17101C4.96993 9.04455 4.87154 10.0058 5.06323 10.9331C5.25493 11.8605 5.72809 12.7123 6.42288 13.3809C7.11767 14.0494 8.00289 14.5048 8.96659 14.6892C9.93029 14.8737 10.9292 14.779 11.837 14.4172C12.7448 14.0553 13.5207 13.4426 14.0666 12.6564C14.6125 11.8703 14.9038 10.946 14.9038 10.0005C14.9038 8.73257 14.3804 7.51661 13.4487 6.62007C12.517 5.72353 11.2534 5.21986 9.9358 5.21986Z" fill="#ffc107"/>
+                                </svg>
+                           </a>
+                        </div>
+                        <div class="socials">
+                            <a href="">
+                                <svg class="socials" xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4065 10.0578C21.4065 4.74704 16.8092 0.440918 11.1393 0.440918C5.4694 0.440918 0.87207 4.74704 0.87207 10.0578C0.87207 14.8576 4.62602 18.8362 9.53503 19.5583V12.8385H6.92743V10.0578H9.53503V7.93907C9.53503 5.52927 11.0682 4.19708 13.4132 4.19708C14.5366 4.19708 15.7119 4.38512 15.7119 4.38512V6.75199H14.4165C13.1418 6.75199 12.7431 7.49301 12.7431 8.25463V10.0578H15.5904L15.1357 12.8385H12.7435V19.5592C17.6525 18.8375 21.4065 14.8589 21.4065 10.0578Z" fill="#ffc107"/>
+                                </svg>
+                           </a>
+                        </div>
+                        <div class="socials">
+                            <a href="https://x.com/JosephObasan?t=sR-oiURiIIYlOkXXjIT25Q&s=09">
+                                <svg class="socials" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 16" fill="none">
+                                    <path d="M19.5756 2.1537C18.8566 2.46592 18.0958 2.67161 17.3172 2.76428C18.1354 2.28554 18.7507 1.52498 19.0477 0.625233C18.2742 1.07722 17.4293 1.39436 16.5493 1.56306C16.1787 1.17497 15.733 0.866237 15.2393 0.65562C14.7456 0.445004 14.2143 0.336906 13.6775 0.337897C11.5041 0.337897 9.74533 2.06989 9.74533 4.20495C9.74379 4.50193 9.77785 4.79802 9.84677 5.08691C8.28834 5.0139 6.76231 4.61663 5.36632 3.92051C3.97033 3.22439 2.73512 2.24475 1.73972 1.04426C1.39051 1.63255 1.20583 2.30377 1.20497 2.98777C1.20497 4.32866 1.90506 5.51392 2.96217 6.20832C2.33586 6.19346 1.72238 6.02781 1.17382 5.72543V5.77332C1.17382 7.64898 2.53166 9.20937 4.32879 9.56455C3.99084 9.65458 3.64259 9.70019 3.29284 9.70024C3.04467 9.70067 2.79706 9.67661 2.55362 9.6284C3.05322 11.1648 4.5073 12.2823 6.22975 12.3142C4.83014 13.3921 3.11178 13.9746 1.34475 13.9704C1.0311 13.9699 0.717739 13.9512 0.40625 13.9145C2.20385 15.0615 4.29342 15.6682 6.42624 15.6624C13.6691 15.6624 17.6259 9.76808 17.6259 4.65591C17.6259 4.4883 17.6216 4.32068 17.6136 4.15706C18.3816 3.61115 19.046 2.93274 19.5756 2.1537Z" fill="#ffc107"/>
+                                </svg>
+                           </a>
+                        </div>
+                      </div>
+                </div>
+                <div class="names">
+                    <h2>jhon Doe</h2>
+                    <p>CEO, Co Founder</p>
+                </div>
+            </div>
+            <div class="container">
+                <img src="img/team-4.jpg" alt="Avatar" class="image" style="width:100%">
+                <div class="middle">
+                    <div class="text">
+                        <div class="socials">
+                            <a href="https://www.instagram.com/jayni_yi?igshid=YzAwZjE1ZTI0Zg==">
+                                <svg class="" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M14.0759 2.03236C15.173 2.03551 16.2242 2.45628 17 3.20276C17.7757 3.94925 18.213 4.9608 18.2162 6.01648V13.9839C18.213 15.0396 17.7757 16.0511 17 16.7976C16.2242 17.5441 15.173 17.9649 14.0759 17.968H5.79618C4.69911 17.9649 3.6479 17.5441 2.87215 16.7976C2.0964 16.0511 1.65914 15.0396 1.65586 13.9839V6.01648C1.65914 4.9608 2.0964 3.94925 2.87215 3.20276C3.6479 2.45628 4.69911 2.03551 5.79618 2.03236H14.0759ZM14.0759 0.438965H5.79618C2.60821 0.438965 0 2.94878 0 6.01648V13.9839C0 17.0516 2.60821 19.5614 5.79618 19.5614H14.0759C17.2639 19.5614 19.8721 17.0516 19.8721 13.9839V6.01648C19.8721 2.94878 17.2639 0.438965 14.0759 0.438965Z" fill="#ffc107"/>
+                                    <path d="M15.3177 6.01677C15.072 6.01677 14.8319 5.94668 14.6277 5.81535C14.4234 5.68403 14.2642 5.49737 14.1702 5.27898C14.0762 5.0606 14.0516 4.82029 14.0995 4.58846C14.1475 4.35662 14.2658 4.14366 14.4395 3.97652C14.6131 3.80937 14.8345 3.69555 15.0754 3.64943C15.3163 3.60331 15.566 3.62698 15.793 3.71744C16.0199 3.8079 16.2139 3.96108 16.3504 4.15763C16.4868 4.35417 16.5597 4.58524 16.5597 4.82162C16.56 4.97866 16.5282 5.13423 16.4659 5.27938C16.4036 5.42454 16.3121 5.55642 16.1967 5.66747C16.0813 5.77852 15.9442 5.86654 15.7934 5.92648C15.6425 5.98642 15.4809 6.01711 15.3177 6.01677ZM9.9358 6.81325C10.5909 6.81325 11.2313 7.00018 11.7759 7.3504C12.3206 7.70061 12.7452 8.19839 12.9958 8.78077C13.2465 9.36316 13.3121 10.004 13.1843 10.6223C13.0565 11.2405 12.7411 11.8084 12.2779 12.2542C11.8146 12.6999 11.2245 13.0035 10.582 13.1264C9.93948 13.2494 9.27351 13.1863 8.66829 12.9451C8.06307 12.7038 7.54578 12.2953 7.18184 11.7712C6.81789 11.2471 6.62364 10.6308 6.62364 10.0005C6.62458 9.15544 6.97384 8.34529 7.59478 7.74777C8.21573 7.15024 9.05765 6.81416 9.9358 6.81325ZM9.9358 5.21986C8.95322 5.21986 7.9927 5.50024 7.17571 6.02554C6.35873 6.55084 5.72196 7.29747 5.34594 8.17101C4.96993 9.04455 4.87154 10.0058 5.06323 10.9331C5.25493 11.8605 5.72809 12.7123 6.42288 13.3809C7.11767 14.0494 8.00289 14.5048 8.96659 14.6892C9.93029 14.8737 10.9292 14.779 11.837 14.4172C12.7448 14.0553 13.5207 13.4426 14.0666 12.6564C14.6125 11.8703 14.9038 10.946 14.9038 10.0005C14.9038 8.73257 14.3804 7.51661 13.4487 6.62007C12.517 5.72353 11.2534 5.21986 9.9358 5.21986Z" fill="#ffc107"/>
+                                </svg>
+                           </a>
+                        </div>
+                        <div class="socials">
+                            <a href="">
+                                <svg class="socials" xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+                                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.4065 10.0578C21.4065 4.74704 16.8092 0.440918 11.1393 0.440918C5.4694 0.440918 0.87207 4.74704 0.87207 10.0578C0.87207 14.8576 4.62602 18.8362 9.53503 19.5583V12.8385H6.92743V10.0578H9.53503V7.93907C9.53503 5.52927 11.0682 4.19708 13.4132 4.19708C14.5366 4.19708 15.7119 4.38512 15.7119 4.38512V6.75199H14.4165C13.1418 6.75199 12.7431 7.49301 12.7431 8.25463V10.0578H15.5904L15.1357 12.8385H12.7435V19.5592C17.6525 18.8375 21.4065 14.8589 21.4065 10.0578Z" fill="#ffc107"/>
+                                </svg>
+                           </a>
+                        </div>
+                        <div class="socials">
+                            <a href="https://x.com/JosephObasan?t=sR-oiURiIIYlOkXXjIT25Q&s=09">
+                                <svg class="socials" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 16" fill="none">
+                                    <path d="M19.5756 2.1537C18.8566 2.46592 18.0958 2.67161 17.3172 2.76428C18.1354 2.28554 18.7507 1.52498 19.0477 0.625233C18.2742 1.07722 17.4293 1.39436 16.5493 1.56306C16.1787 1.17497 15.733 0.866237 15.2393 0.65562C14.7456 0.445004 14.2143 0.336906 13.6775 0.337897C11.5041 0.337897 9.74533 2.06989 9.74533 4.20495C9.74379 4.50193 9.77785 4.79802 9.84677 5.08691C8.28834 5.0139 6.76231 4.61663 5.36632 3.92051C3.97033 3.22439 2.73512 2.24475 1.73972 1.04426C1.39051 1.63255 1.20583 2.30377 1.20497 2.98777C1.20497 4.32866 1.90506 5.51392 2.96217 6.20832C2.33586 6.19346 1.72238 6.02781 1.17382 5.72543V5.77332C1.17382 7.64898 2.53166 9.20937 4.32879 9.56455C3.99084 9.65458 3.64259 9.70019 3.29284 9.70024C3.04467 9.70067 2.79706 9.67661 2.55362 9.6284C3.05322 11.1648 4.5073 12.2823 6.22975 12.3142C4.83014 13.3921 3.11178 13.9746 1.34475 13.9704C1.0311 13.9699 0.717739 13.9512 0.40625 13.9145C2.20385 15.0615 4.29342 15.6682 6.42624 15.6624C13.6691 15.6624 17.6259 9.76808 17.6259 4.65591C17.6259 4.4883 17.6216 4.32068 17.6136 4.15706C18.3816 3.61115 19.046 2.93274 19.5756 2.1537Z" fill="#ffc107"/>
+                                </svg>
+                           </a>
+                        </div>
+                      </div>                </div>
+                <div class="names">
+                    <h2>Josh Dunn</h2>
+                    <p>Master Chef </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- links -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
